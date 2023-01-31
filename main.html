@@ -27,7 +27,7 @@
   <div class="col-md-4">
     <label for="email-input" class="form-label">Email Address</label>
     <div class="input-group has-validation">
-      <input type="text" class="form-control is-invalid" id="email-input" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+      <input type="email" class="form-control is-invalid" id="email-input" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
       <div id="validationServerUsernameFeedback" class="invalid-feedback">
       Email required!
       </div>
@@ -35,7 +35,7 @@
   </div>
   <div class="col-md-6">
     <label for="college-input" class="form-label">College</label>
-    <input type="text" class="form-control is-invalid" id="college-input" aria-describedby="validationServer03Feedback" required>
+    <input type="text" class="form-control is-invalid" id="college-input" required>
     <div id="validationServer03Feedback" class="invalid-feedback">
       Please provide a valid College.
     </div>
@@ -58,14 +58,14 @@
   </div>
   <div class="col-md-3">
     <label for="roll-no-input" class="form-label">Roll No.</label>
-    <input type="text" class="form-control is-invalid" id="roll-no-input" aria-describedby="validationServer05Feedback" required>
+    <input type="number" class="form-control is-invalid" id="roll-no-input" min="1" aria-describedby="validationServer05Feedback" required>
     <div id="validationServer05Feedback" class="invalid-feedback">
       Please provide a valid Roll no.
     </div>
   </div>
   <div class="col-12">
     <div class="form-check">
-      <input class="form-check-input is-invalid" type="checkbox" value="" id="conditions-checkbox" aria-describedby="invalidCheck3Feedback" required>
+      <input class="form-check-input is-invalid" type="checkbox" id="conditions-checkbox" aria-describedby="invalidCheck3Feedback" required>
       <label class="form-check-label" for="conditions-checkbox">
         Agree to terms and conditions
       </label>
